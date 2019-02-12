@@ -78,13 +78,6 @@ git clone https://github.com/treetips/kotlin-spring-boot-webflux-springfox-examp
 cd kotlin-spring-boot-webflux-springfox-example
 ```
 
-### Install node_modules
-
-```bash
-cd ${PROJECT_ROOT}
-yarn
-```
-
 ### Install IntelliJ IDEA
 
 Install community(or ultimate) edition.
@@ -126,6 +119,7 @@ Start to `MySQL-server` and `Redis-server` and `MailCatcher(Virtual SMTP)`.
 Right click on `com.example.api.ApiApplication.kt` -> Run.
 
 Browse `http://localhost:8080/api/prefecture/`
+
 Browse `http://localhost:8080/swagger-ui.html`
 
 ## Optional
